@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACT US</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+<body oncontextmenu="return false">
+<style>
+  @font-face {
+    font-family: anurati;
+    src: url(fonts/anurati_font/Anurati-Regular.otf);
+  }
+
+  @font-face {
+    font-family: blanka;
+    src: url(fonts/blanka-free-for-commercial-use/Blanka-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: gos;
+    src: url(fonts/Game_Of_Squids.ttf);
+  }
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    /* background-color: hsl(58, 87%, 94%); */
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    display: grid;
+    place-items: center;
+  }
+
+  .heading {
+    font-family: gos;
+    color: #212529;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font-family: Arial;
+    color: #212529;
+  }
+
+  .lin {
+    color: rgb(0, 8, 255);
+    position: relative;
+    left: 5%;
+    cursor: pointer;
+  }
+
+  p {
+    position: relative;
+    left: 5%;
+  }
+
+  .name {
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  .back {
+    position: relative;
+    right: 48%;
+    top: 83%;
+  }
+
+  .barrow {
+
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 360px) {
+    body {
+      /* background-color: hsl(58, 87%, 94%); */
+      /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+      background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+      display: block;
+      place-items: none;
+    }
+
+    .back {
+      position: relative;
+      right: 0%;
+      top: 2%;
+    }
+
+    li {
+      font-family: Arial;
+      color: #212529;
+      font-size: 19px;
+      font-weight: bold;
+    }
+  }
+
+  .slide-right {
+    animation: 4s slide-right;
+  }
+
+  @keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .slide-left {
+    animation: 4s slide-left;
+  }
+
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  .fade-in {
+    animation: fadeIn ease 4s;
+  }
+
+  .fade-in-2 {
+    animation: fadeIn ease 10s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+</style>
+<div class="back">
+  <a href="index.html"><i class="bi bi-arrow-left barrow"></i></a>
+</div>
+<div class="container slide-right">
+  <h1 class="heading  fade-in">Team Members</h1>
+</div>
+<div class="slide-left">
+  <ul class="fade-in">
+    <li>Manish Kumar &nbsp; &nbsp;<p> Email:- mk2220660@gmail.com</p> &nbsp;<a
+        href="https://www.linkedin.com/in/manish-kumar-a9456520b" target="_blank"><i class="bi bi-linkedin lin"></i></a>
+    </li>
+    <li>Udaybhan Yadav &nbsp; &nbsp;<p> Email:- udaybhan28495@gmail.com</p>&nbsp; <a
+        href="https://www.linkedin.com/in/udaybhan-yadav-b534061b0/" target="_blank"><i
+          class="bi bi-linkedin lin"></i></a></li>
+    <li>Niteesh Kumar Yadav &nbsp; &nbsp;<p> Email:- bittoojarvis@gmail.com</p>&nbsp; <a
+        href="https://www.linkedin.com/in/v2jarvis/" target="_blank"><i
+          class="bi bi-linkedin lin"></i></a></li>
+    <li>Sachin Kumar Gupta &nbsp; &nbsp;<p> Email:- mr.sachin10dulkar@gmail.com</p>&nbsp; <a
+        href="https://www.linkedin.com/in/sachin-kumar-gupta-b7124320a/" target="_blank"><i
+          class="bi bi-linkedin lin"></i></a></li>
+    <!-- <li>Niteesh Kumar Yadav &nbsp; &nbsp;<p> Email:- bittoojarvis@gmail.com</p> &nbsp;<a
+        herf="https://www.linkedin.com/in/v2jarvis/" target="_blank"><i class="bi bi-linkedin lin"></i></a></li>
+    <li>Sachin Kumar Gupta &nbsp; &nbsp; <p> Email:- mr.sachin10dulkar@gmail.com</p>&nbsp;<a
+        herf="https://www.linkedin.com/in/sachin-kumar-gupta-b7124320a/" target="_blank"><i
+          class="bi bi-linkedin lin"></i></a></li> -->
+  </ul>
+  <h3 class="heading fade-in">Under the guidance of:- </h3>
+  <p class="name fade-in-2">Mr. Archit Verma</p>
+</div>
+</body>
+
+</html>
